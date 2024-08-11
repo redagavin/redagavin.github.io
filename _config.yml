@@ -21,7 +21,7 @@ repository               : "redagavin/redagavin.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "casual-profile.png"
+  avatar           : "casual-profile.jpg"
   name             : "Zihao Yang"
   pronouns         : # example: "she/her"  
   bio              : "Research Intern at NYU VisionX. Graduated with a Bachelor's degree in CS & DS from NYU."
