@@ -75,28 +75,28 @@ Publication
 }
 </style>
 
-**Refining Packing and Shuffling Strategies for Enhanced Performance in Generative Language Models**
-Manuscript submitted to *ACL ARR 2024*
+**Refining Packing and Shuffling Strategies for Enhanced Performance in Generative Language Models**  
+Manuscript submitted to *ACL ARR 2024*  
 <br>
 
-**Medical large language models are vulnerable to attack**
-Daniel Alber, **Zihao Yang**, Anton Alyakin, Eunice Yang, Sumedha Rai, Aly Vallliani, Gabriel Rosenbaum, Ashley Amend-Thomas, David Kurland, Caroline Kremer, Alexander Eremiev, Bruck Negash, Daniel Wiggan, Michelle Nakatsuka, Karl Sangwon, Sean Neifert, Hammad Khan, Akshay Save, Adhith Palla, Eric Grin, Monika Hedman, Mustafa Nasir-Moin, Chris Liu, Lavender Jiang, Michal Mankowski, Dorry Segev, Yindalon Aphinyanaphongs, Howard Riina, John Golfinos, Daniel Orringer, Eric Oermann
-Manuscript under review at *Nature*
+**Medical large language models are vulnerable to attack**  
+Daniel Alber, **Zihao Yang**, Anton Alyakin, Eunice Yang, Sumedha Rai, Aly Vallliani, Gabriel Rosenbaum, Ashley Amend-Thomas, David Kurland, Caroline Kremer, Alexander Eremiev, Bruck Negash, Daniel Wiggan, Michelle Nakatsuka, Karl Sangwon, Sean Neifert, Hammad Khan, Akshay Save, Adhith Palla, Eric Grin, Monika Hedman, Mustafa Nasir-Moin, Chris Liu, Lavender Jiang, Michal Mankowski, Dorry Segev, Yindalon Aphinyanaphongs, Howard Riina, John Golfinos, Daniel Orringer, Eric Oermann  
+Manuscript under review at *Nature*  
 <br>
 
-**BPQA Dataset: Evaluating How Well Language Models Leverage Blood Pressures to Answer Biomedical Questions**
-*Preprint*
+**BPQA Dataset: Evaluating How Well Language Models Leverage Blood Pressures to Answer Biomedical Questions**  
+*Preprint*  
 <br>
 
-**Language Models Can Guess Your Identities from De-identified Clinical Notes**
-*Preprint*
+**Language Models Can Guess Your Identities from De-identified Clinical Notes**  
+*Preprint*  
 <button class="button-4" onclick="window.open('https://openreview.net/pdf?id=pzpHajYa67','_blank')">PDF</button>
 <br>
 
 ![](images/icd9.png){: .align-right width="200px"}
-**Intriguing Effect of the Correlation Prior on ICD-9 Code Assignment**
-**Zihao Yang**, Chenkang Zhang, Muru Wu, Xujin Liu, Lavender Jiang, Kyunghyun Cho, Eric Oermann
-*ACL 2023 SRW*
+**Intriguing Effect of the Correlation Prior on ICD-9 Code Assignment**  
+**Zihao Yang**, Chenkang Zhang, Muru Wu, Xujin Liu, Lavender Jiang, Kyunghyun Cho, Eric Oermann  
+*ACL 2023 SRW*  
 <button class="button-4" onclick="window.open('https://aclanthology.org/2023.acl-srw.19.pdf','_blank')">PDF</button>
 <br>
 
