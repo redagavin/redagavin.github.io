@@ -11,8 +11,7 @@ I graduated cum laude from NYU with a Bachelor's degree in Computer Science and 
 
 Email: zy2091@nyu.edu
 
-Publication
-======
+## Publication
 <style>
 .button {
   background-color: white;
@@ -100,7 +99,6 @@ Manuscript under review at *Nature*
 <button class="button-4" onclick="window.open('https://aclanthology.org/2023.acl-srw.19.pdf','_blank')">PDF</button>
 <br>
 
-Education
-======
+## Education
 + (2020-2024)B.A., Computer Science & Data Science, New York University, New York, USA
 
