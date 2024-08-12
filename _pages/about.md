@@ -100,5 +100,5 @@ Manuscript under review at *Nature*
 <br>
 
 ## Education
-+ (2020-2024)B.A., Computer Science & Data Science, New York University, New York, USA
++ (2020-2024) B.A., Computer Science & Data Science, New York University, New York, USA
 
