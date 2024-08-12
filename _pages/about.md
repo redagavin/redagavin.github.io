@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I graduated cum laude from NYU with a Bachelor's degree in Computer Science and Data Science. I am working in VisionX Lab as a research intern, advised by Professor Saining Xie. Previously during my undergraduate program, I was working in OLAB and Memo Lab, advised by Professor Eric K. Oermann and Professor Chen Shuo. My research interests include Multimodality and AI for science & healthcare. My research currently focuses on compressing multimodal language model and improving its efficiency for the sake of better accessibility and wider application.
+I graduated cum laude from [New York University](https://www.nyu.edu/) with a Bachelor's degree in Computer Science and Data Science. I am working in VisionX Lab as a research intern, advised by Professor [Saining Xie](https://www.sainingxie.com/). Previously during my undergraduate program, I was working in [OLAB](https://www.nyuolab.org/) and Memo Lab, advised by Professor [Eric K. Oermann](https://nyulangone.org/doctors/1235498403/eric-k-oermann) and Professor [Chen Shuo](https://med.nyu.edu/faculty/shuo-chen). My research interests include Multimodality and AI for Science & Healthcare. My research currently focuses on compressing multimodal language models and improving their efficiency to enhance accessibility and broaden their applications.
 
 Email: zy2091@nyu.edu
 
