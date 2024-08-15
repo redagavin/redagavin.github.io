@@ -1,13 +1,15 @@
 ---
 permalink: /
-title: "Hi, there! I'm Zihao."
+title: "Hi, there! I'm Zihao(Gavin)."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I graduated cum laude from [New York University](https://www.nyu.edu/) with a Bachelor's degree in Computer Science and Data Science. I am working in VisionX Lab as a research intern, advised by Professor [Saining Xie](https://www.sainingxie.com/). Previously during my undergraduate program, I was working in [OLAB](https://www.nyuolab.org/) and Memo Lab, advised by Professor [Eric K. Oermann](https://nyulangone.org/doctors/1235498403/eric-k-oermann) and Professor [Chen Shuo](https://med.nyu.edu/faculty/shuo-chen). My research interests include Multimodality and AI for Science & Healthcare. My research currently focuses on compressing multimodal language models and improving their efficiency to enhance accessibility and broaden their applications.
+I am working in VisionX Lab as a research intern, advised by Professor [Saining Xie](https://www.sainingxie.com/). I graduated cum laude from [New York University](https://www.nyu.edu/) with a Bachelor's degree in Computer Science and Data Science. Previously during my undergraduate program, I was working in [OLAB](https://www.nyuolab.org/) and Memo Lab, advised by Professor [Eric K. Oermann](https://nyulangone.org/doctors/1235498403/eric-k-oermann) and Professor [Chen Shuo](https://med.nyu.edu/faculty/shuo-chen). My research interests include Multimodality and AI for Science & Healthcare. My research currently focuses on compressing multimodal language models and improving their efficiency to enhance accessibility and broaden their applications.
+
+I have been fortunate to be advised by Professor Xie, Professor Oermann, and Professor Shuo. I am also grateful for the memtorship from [Lavender Yao Jiang](https://lavenderjiang.github.io/), [Xujin Chris Liu](https://scholar.google.com/citations?user=ZY-JsPoAAAAJ&hl=en), and Professor [Kyunghyun Cho](https://kyunghyuncho.me/).
 
 Email: zy2091@nyu.edu
 
@@ -75,20 +77,22 @@ Email: zy2091@nyu.edu
 </style>
 
 **Refining Packing and Shuffling Strategies for Enhanced Performance in Generative Language Models**  
-Manuscript submitted to *ACL ARR 2024*  
+Yanbing Chen, Ruilin Wang, **Zihao Yang**, Lavender Jiang, Eric Oermann  
+Under review at *ACL ARR 2024* (Preprint will be posted soon. Paper is available upon request.)
 <br>
 
 **Medical large language models are vulnerable to attack**  
 Daniel Alber, **Zihao Yang**, Anton Alyakin, Eunice Yang, Sumedha Rai, Aly Vallliani, Gabriel Rosenbaum, Ashley Amend-Thomas, David Kurland, Caroline Kremer, Alexander Eremiev, Bruck Negash, Daniel Wiggan, Michelle Nakatsuka, Karl Sangwon, Sean Neifert, Hammad Khan, Akshay Save, Adhith Palla, Eric Grin, Monika Hedman, Mustafa Nasir-Moin, Chris Liu, Lavender Jiang, Michal Mankowski, Dorry Segev, Yindalon Aphinyanaphongs, Howard Riina, John Golfinos, Daniel Orringer, Eric Oermann  
-Manuscript under review at *Nature*  
+Under review at *Nature* (Paper is available upon request.)
 <br>
 
 **BPQA Dataset: Evaluating How Well Language Models Leverage Blood Pressures to Answer Biomedical Questions**  
-*Preprint*  
+Chi Hang, Ruiqi Deng, Lavender Jiang, **Zihao Yang**, Daniel Alber, Anton Alyakin, Eric Oermann  
+(Preprint will be posted soon. Paper is available upon request.)
 <br>
 
 **Language Models Can Guess Your Identities from De-identified Clinical Notes**  
-*Preprint*  
+*Preprint* (More details are in my CV)  
 <button class="button-4" onclick="window.open('https://openreview.net/pdf?id=pzpHajYa67','_blank')">PDF</button>
 <br>
 
