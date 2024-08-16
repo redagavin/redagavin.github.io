@@ -11,7 +11,7 @@ I am working in VisionX Lab as a research intern, advised by Professor [Saining 
 
 I have been fortunate to be advised by Professor Xie, Professor Oermann, and Professor Shuo. I am also grateful for the memtorship from [Lavender Y. Jiang](https://lavenderjiang.github.io/), [Xujin C. Liu](https://scholar.google.com/citations?user=ZY-JsPoAAAAJ&hl=en), Professor [Kyunghyun Cho](https://kyunghyuncho.me/), and Professor [Samuel R. Bowman](https://cims.nyu.edu/~sbowman/index.shtml).
 
-Email: zy2091@nyu.edu
+Email: [zy2091@nyu.edu](mailto:zy2091@nyu.edu). CV: [link](https://redagavin.github.io/files/Resume_Zihao(Gavin)_Yang.pdf).
 
 ## Publication
 <style>
