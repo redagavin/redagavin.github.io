@@ -9,7 +9,7 @@ redirect_from:
 
 I am working in VisionX Lab as a research intern, advised by Professor [Saining Xie](https://www.sainingxie.com/). I graduated cum laude from [New York University](https://www.nyu.edu/) with a Bachelor's degree in Computer Science and Data Science. Previously during my undergraduate program, I was working in [OLAB](https://www.nyuolab.org/) and Memo Lab, advised by Professor [Eric K. Oermann](https://nyulangone.org/doctors/1235498403/eric-k-oermann) and Professor [Chen Shuo](https://med.nyu.edu/faculty/shuo-chen). My research interests include Multimodality and AI for Science & Healthcare. My research currently focuses on compressing multimodal language models and improving their efficiency to enhance accessibility and broaden their applications.
 
-I have been fortunate to be advised by Professor Xie, Professor Oermann, and Professor Shuo. I am also grateful for the memtorship from [Lavender Yao Jiang](https://lavenderjiang.github.io/), [Xujin Chris Liu](https://scholar.google.com/citations?user=ZY-JsPoAAAAJ&hl=en), and Professor [Kyunghyun Cho](https://kyunghyuncho.me/).
+I have been fortunate to be advised by Professor Xie, Professor Oermann, and Professor Shuo. I am also grateful for the memtorship from [Lavender Y. Jiang](https://lavenderjiang.github.io/), [Xujin C. Liu](https://scholar.google.com/citations?user=ZY-JsPoAAAAJ&hl=en), Professor [Kyunghyun Cho](https://kyunghyuncho.me/), and Professor [Samuel R. Bowman](https://cims.nyu.edu/~sbowman/index.shtml).
 
 Email: zy2091@nyu.edu
 
