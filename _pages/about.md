@@ -92,7 +92,8 @@ Chi Hang, Ruiqi Deng, Lavender Jiang, **Zihao Yang**, Daniel Alber, Anton Alyaki
 <br>
 
 **Language Models Can Guess Your Identities from De-identified Clinical Notes**  
-*Preprint* (More details are in my CV)  
+Lavender Jiang, Daniel Alber, **Zihao Yang**, Karl Sangwon, Xujin Liu, Kyunghyun Cho, Eric Oermann
+*Preprint*  
 <button class="button-4" onclick="window.open('https://openreview.net/pdf?id=pzpHajYa67','_blank')">PDF</button>
 <br>
 
