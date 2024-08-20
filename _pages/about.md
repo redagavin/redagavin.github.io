@@ -78,7 +78,8 @@ Email: [zy2091@nyu.edu](mailto:zy2091@nyu.edu). CV: [link](https://redagavin.git
 
 **Refining Packing and Shuffling Strategies for Enhanced Performance in Generative Language Models**  
 Yanbing Chen, Ruilin Wang, **Zihao Yang**, Lavender Jiang, Eric Oermann  
-Under review at *ACL ARR 2024* (Preprint will be posted soon. Paper is available upon request.)
+Under review at *ACL ARR 2024*  
+<button class="button-4" onclick="window.open('https://www.arxiv.org/pdf/2408.09621','_blank')">PDF</button>
 <br>
 
 **Medical large language models are vulnerable to attack**  
