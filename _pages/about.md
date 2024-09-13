@@ -112,4 +112,4 @@ Lavender Jiang, Daniel Alber, **Zihao Yang**, Karl Sangwon, Xujin Liu, Kyunghyun
 <br>
 <br>
 <br>
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=600&t=n&d=wmfHjlOs3jD6Ty4NSujb7wT17y7RkgoF0vmien5dLcc'></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=600&t=tt&d=wmfHjlOs3jD6Ty4NSujb7wT17y7RkgoF0vmien5dLcc'></script>
