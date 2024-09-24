@@ -84,7 +84,7 @@ Under review at *ACL ARR 2024*
 
 **Medical large language models are vulnerable to attack**  
 Daniel Alber, **Zihao Yang**, Anton Alyakin, Eunice Yang, Sumedha Rai, Aly Vallliani, Gabriel Rosenbaum, Ashley Amend-Thomas, David Kurland, Caroline Kremer, Alexander Eremiev, Bruck Negash, Daniel Wiggan, Michelle Nakatsuka, Karl Sangwon, Sean Neifert, Hammad Khan, Akshay Save, Adhith Palla, Eric Grin, Monika Hedman, Mustafa Nasir-Moin, Chris Liu, Lavender Jiang, Michal Mankowski, Dorry Segev, Yindalon Aphinyanaphongs, Howard Riina, John Golfinos, Daniel Orringer, Eric Oermann  
-Under review at *Nature* (Paper is available upon request.)
+Accepted for publication at *Nature Medicine* (Paper is available upon request.)
 <br>
 
 **BPQA Dataset: Evaluating How Well Language Models Leverage Blood Pressures to Answer Biomedical Questions**  
@@ -94,7 +94,7 @@ Chi Hang, Ruiqi Deng, Lavender Jiang, **Zihao Yang**, Daniel Alber, Anton Alyaki
 
 **Language Models Can Guess Your Identities from De-identified Clinical Notes**  
 Lavender Jiang, Daniel Alber, **Zihao Yang**, Karl Sangwon, Xujin Liu, Kyunghyun Cho, Eric Oermann  
-*Preprint*  
+Under review at *ML4H 2024*  
 <button class="button-4" onclick="window.open('https://openreview.net/pdf?id=pzpHajYa67','_blank')">PDF</button>
 <br>
 
