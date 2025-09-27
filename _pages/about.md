@@ -79,22 +79,24 @@ Email: [yang.zih@northeastern.edu](mailto:yang.zih@northeastern.edu) ; [zy2091@n
 **Refining Packing and Shuffling Strategies for Enhanced Performance in Generative Language Models**  
 Yanbing Chen, Ruilin Wang, **Zihao Yang**, Lavender Jiang, Eric Oermann  
 Preprint  
-<button class="button-4" onclick="window.open('https://www.arxiv.org/pdf/2408.09621','_blank')">PDF</button>
+<button class="button-4" onclick="window.open('https://arxiv.org/abs/2408.09621','_blank')">PDF</button>
 <br>
 
-**Medical large language models are vulnerable to attack**  
-Daniel Alber, **Zihao Yang**, Anton Alyakin, Eunice Yang, Sumedha Rai, Aly Vallliani, Gabriel Rosenbaum, Ashley Amend-Thomas, David Kurland, Caroline Kremer, Alexander Eremiev, Bruck Negash, Daniel Wiggan, Michelle Nakatsuka, Karl Sangwon, Sean Neifert, Hammad Khan, Akshay Save, Adhith Palla, Eric Grin, Monika Hedman, Mustafa Nasir-Moin, Chris Liu, Lavender Jiang, Michal Mankowski, Dorry Segev, Yindalon Aphinyanaphongs, Howard Riina, John Golfinos, Daniel Orringer, Eric Oermann  
-Accepted for publication at *Nature Medicine* (Paper is available upon request.)
+**Medical large language models are vulnerable to data-poisoning attacks**  
+Daniel Alber, **Zihao Yang**, Anton Alyakin, Eunice Yang, Sumedha Rai, Aly Valliani, Jeff Zhang, Gabriel Rosenbaum, Ashley Amend-Thomas, David Kurland, Caroline Kremer, Alexander Eremiev, Bruck Negash, Daniel Wiggan, Michelle Nakatsuka, Karl Sangwon, Sean Neifert, Hammad Khan, Akshay Save, Adhith Palla, Eric Grin, Monika Hedman, Mustafa Nasir-Moin, Xujin Liu, Lavender Jiang, Michal Mankowski, Dorry Segev, Yindalon Aphinyanaphongs, Howard Riina, John Golfinos, Daniel Orringer, Douglas Kondziolka, Eric Oermann  
+*Nature Medicine*  
+<button class="button-4" onclick="window.open('https://www.nature.com/articles/s41591-024-03445-1','_blank')">PDF</button>
 <br>
 
 **BPQA Dataset: Evaluating How Well Language Models Leverage Blood Pressures to Answer Biomedical Questions**  
 Chi Hang, Ruiqi Deng, Lavender Jiang, **Zihao Yang**, Daniel Alber, Anton Alyakin, Eric Oermann  
-(Preprint will be posted soon. Paper is available upon request.)
+Preprint  
+<button class="button-4" onclick="window.open('https://arxiv.org/abs/2503.04155','_blank')">PDF</button>
 <br>
 
 **Language Models Can Guess Your Identities from De-identified Clinical Notes**  
 Lavender Jiang, Daniel Alber, **Zihao Yang**, Karl Sangwon, Xujin Liu, Kyunghyun Cho, Eric Oermann  
-Under review at *ML4H 2024*  
+Preprint  
 <button class="button-4" onclick="window.open('https://openreview.net/pdf?id=pzpHajYa67','_blank')">PDF</button>
 <br>
 
@@ -102,11 +104,12 @@ Under review at *ML4H 2024*
 **Intriguing Effect of the Correlation Prior on ICD-9 Code Assignment**  
 **Zihao Yang**, Chenkang Zhang, Muru Wu, Xujin Liu, Lavender Jiang, Kyunghyun Cho, Eric Oermann  
 *ACL 2023 SRW*  
-<button class="button-4" onclick="window.open('https://aclanthology.org/2023.acl-srw.19.pdf','_blank')">PDF</button>
+<button class="button-4" onclick="window.open('https://aclanthology.org/2023.acl-srw.19/','_blank')">PDF</button>
 <br>
 
 ## Education
-+ (2020-2024) B.A., Computer Science & Data Science, New York University, New York, USA
++ (2025-present) Ph.D., Computer Science, Northeastern University, Boston, MA, USA
++ (2020-2024) B.A., Computer Science & Data Science, New York University, New York, NY, USA
 
 <br>
 <br>
