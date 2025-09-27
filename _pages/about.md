@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am working in VisionX Lab as a research intern, advised by Professor [Saining Xie](https://www.sainingxie.com/). I graduated cum laude from [New York University](https://www.nyu.edu/) with a Bachelor's degree in Computer Science and Data Science. Previously during my undergraduate program, I was working in [OLAB](https://www.nyuolab.org/) and Memo Lab, advised by Professor [Eric K. Oermann](https://nyulangone.org/doctors/1235498403/eric-k-oermann) and Professor [Chen Shuo](https://med.nyu.edu/faculty/shuo-chen). My research interests include Multimodality and AI for Science & Healthcare. My research currently focuses on compressing multimodal language models and improving their efficiency to enhance accessibility and broaden their applications.
+I am a first-year CS PhD student at [Northeastern University](https://www.northeastern.edu/), advised by Professor [Byron Wallace](https://www.byronwallace.com/). I graduated cum laude from [New York University](https://www.nyu.edu/) with a Bachelor's degree in Computer Science and Data Science. Previously, I worked in VisionX Lab as a research intern, advised by Professor [Saining Xie](https://www.sainingxie.com/). During my undergraduate program, I worked in [OLAB](https://www.nyuolab.org/) and Memo Lab, advised by Professor [Eric K. Oermann](https://nyulangone.org/doctors/1235498403/eric-k-oermann) and Professor [Chen Shuo](https://med.nyu.edu/faculty/shuo-chen) respectively. My research interests include AI for Healthcare and Multimodal Learning. My research currently focuses on incorporating mechanistic interpretability techniques into real-world clinical scenarios to enhance model trustworthiness.
 
 I have been fortunate to be advised by Professor Xie, Professor Oermann, and Professor Shuo. I am also grateful for the memtorship from [Lavender Y. Jiang](https://lavenderjiang.github.io/), [Xujin C. Liu](https://scholar.google.com/citations?user=ZY-JsPoAAAAJ&hl=en), Professor [Kyunghyun Cho](https://kyunghyuncho.me/), and Professor [Samuel R. Bowman](https://cims.nyu.edu/~sbowman/index.shtml).
 
-Email: [zy2091@nyu.edu](mailto:zy2091@nyu.edu). CV: [link](https://redagavin.github.io/files/Resume_Zihao(Gavin)_Yang.pdf).
+Email: [yang.zih@northeastern.edu](mailto:yang.zih@northeastern.edu) ; [zy2091@nyu.edu](mailto:zy2091@nyu.edu). CV: [link](https://redagavin.github.io/files/Resume_Zihao(Gavin)_Yang.pdf).
 
 ## Publication
 <style>
