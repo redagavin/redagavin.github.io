@@ -37,13 +37,38 @@ Email: [yang.zih@northeastern.edu](mailto:yang.zih@northeastern.edu) or [gavin.y
 <div class="visitor-map">
 <script>
   (function () {
-    var day = 'https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=oHhavBKlfOUZpVPCxNCL5CEdv0HrdPTOFOY2vHta3kk';
-    var night = 'https://mapmyvisitors.com/map.js?cl=0e1633&w=a&t=tt&d=oHhavBKlfOUZpVPCxNCL5CEdv0HrdPTOFOY2vHta3kk&co=0b4975&cmo=3acc3a&cmn=ff5353&ct=cdd4d9';
-    var map = document.createElement('script');
-    map.type = 'text/javascript';
-    map.id = 'mapmyvisitors';
-    map.src = document.documentElement.getAttribute('data-theme') === 'dark' ? night : day;
-    document.currentScript.after(map);
+    var pages = {
+      light: '{{ '/visitor-map/day.html' | relative_url }}',
+      dark: '{{ '/visitor-map/night.html' | relative_url }}'
+    };
+    var root = document.documentElement;
+    var box = document.currentScript.parentNode;
+    var frames = {};
+    function fit(frame, tries) {
+      var widget = frame.contentDocument && frame.contentDocument.getElementById('mapmyvisitors-widget');
+      if (widget && widget.offsetHeight) {
+        frame.style.height = widget.offsetHeight + 'px';
+      } else if (tries > 0) {
+        setTimeout(function () { fit(frame, tries - 1); }, 200);
+      }
+    }
+    function load(theme) {
+      var frame = document.createElement('iframe');
+      frame.className = 'visitor-map__frame';
+      frame.title = 'Visitor map';
+      frame.setAttribute('scrolling', 'no');
+      frame.onload = function () { fit(frame, 50); };
+      frame.src = pages[theme];
+      box.appendChild(frame);
+      frames[theme] = frame;
+    }
+    function show() {
+      var theme = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      if (!frames[theme]) { load(theme); }
+      for (var name in frames) { frames[name].classList.toggle('is-hidden', name !== theme); }
+    }
+    show();
+    new MutationObserver(show).observe(root, { attributes: true, attributeFilter: ['data-theme'] });
   })();
 </script>
 </div>
