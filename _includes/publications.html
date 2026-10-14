@@ -1,11 +1,10 @@
 {% comment %}Lists _data/publications.yml entries of one group: {% include publications.html group="preprint" %}.
 Author lists over 15 names show the first three and the last, with the full list behind a toggle.
 Output lines stay unindented so kramdown does not read them as code blocks.{% endcomment %}
-{%- include base_path -%}
 {%- assign pubs = site.data.publications | where: "group", include.group -%}
 <ul class="pubs">
 {%- for p in pubs %}
-<li class="pub{% if p.image %} pub--figure{% endif %}">
+<li class="pub">
 <h4 class="pub__title">{{ p.title }}</h4>
 {%- assign n = p.authors | size %}
 {%- if n > 15 %}
@@ -21,9 +20,6 @@ Output lines stay unindented so kramdown does not read them as code blocks.{% en
 <p class="pub__meta"><span class="pub__venue pub__venue--{{ p.group }}">{{ p.venue }}</span>{% for l in p.links %} <a href="{{ l.url }}" aria-label="{{ l.label }}: {{ p.title }}">{{ l.label }}</a>{% endfor %}</p>
 {%- if p.note %}
 <p class="pub__note">{{ p.note }}</p>
-{%- endif %}
-{%- if p.image %}
-<img class="pub__figure" src="{{ base_path }}/images/{{ p.image }}" alt="{{ p.image_alt }}" loading="lazy">
 {%- endif %}
 </li>
 {%- endfor %}

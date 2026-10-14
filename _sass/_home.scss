@@ -61,25 +61,6 @@
   margin: 0 0 1.6em;
 }
 
-/* an entry with a figure: text left, figure right; stacked under the links on phones */
-.page__content .pub--figure {
-  @include breakpoint($small) {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 9.5rem;
-    column-gap: 1.25rem;
-
-    > * {
-      grid-column: 1;
-    }
-
-    .pub__figure {
-      grid-column: 2;
-      grid-row: 1 / span 4;
-      margin: 0;
-    }
-  }
-}
-
 .pub__title {
   margin: 0 0 0.3em;
   font-size: 1rem;
@@ -124,16 +105,6 @@
   margin: 0.4em 0 0;
   font-size: 0.778rem;
   color: $graphite;
-}
-
-.pub__figure {
-  display: block;
-  width: min(100%, 15rem);
-  margin: 0.75em 0 0;
-  padding: 0.35rem;
-  border: 1px solid $rule;
-  border-radius: 4px;
-  background-color: #fff;
 }
 
 /* long author lists: first three and last shown, the rest on request */
