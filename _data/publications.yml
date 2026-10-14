@@ -7,7 +7,8 @@
   group: peer-reviewed
   links:
     - { label: arXiv, url: "https://arxiv.org/abs/2605.01048" }
-    - { label: Code, url: "https://github.com/redagavin/cfprompt" }
+    - { label: Code, url: "https://github.com/redagavin/counterfactual-prompting-baselines" }
+    - { label: Package, url: "https://github.com/redagavin/cfprompt" }
 
 - title: "Optimizing Packing and Shuffling Strategies for Enhanced Performance in Generative Language Models"
   authors: ["Yanbing Chen", "Ruilin Wang", "Zihao Yang", "Lavender Jiang", "Eric Oermann"]
