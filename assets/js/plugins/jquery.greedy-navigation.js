@@ -11,26 +11,28 @@ var $vlinks = $('#site-nav .visible-links');
 var $hlinks = $('#site-nav .hidden-links');
 
 var breaks = [];
+// the site-name item never moves to the overflow menu
+var movable = '*:not(.masthead__menu-item--lg)';
 
 function updateNav() {
 
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
-  // The visible list is overflowing the nav
-  if($vlinks.width() > availableSpace) {
+  // The visible list is overflowing the nav and still has an item to move
+  if($vlinks.width() > availableSpace && $vlinks.children(movable).length) {
 
     // Record the width of the list
     breaks.push($vlinks.width());
 
     // Move item to the hidden list
-    $vlinks.children('*:not(.masthead__menu-item--lg)').last().prependTo($hlinks);
+    $vlinks.children(movable).last().prependTo($hlinks);
 
     // Show the dropdown btn
     if($btn.hasClass('hidden')) {
       $btn.removeClass('hidden');
     }
 
-  // The visible list is not overflowing
+  // The visible list is not overflowing (or only the site name is left)
   } else {
 
     // There is space for another item in the nav
@@ -51,8 +53,8 @@ function updateNav() {
   // Keep counter updated
   $btn.attr("count", breaks.length);
 
-  // Recur if the visible list is still overflowing the nav
-  if($vlinks.width() > availableSpace) {
+  // Recur if the visible list is still overflowing the nav and an item can still move
+  if($vlinks.width() > availableSpace && $vlinks.children(movable).length) {
     updateNav();
   }
 
