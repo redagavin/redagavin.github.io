@@ -16,7 +16,7 @@ I am a second-year CS PhD student at [Northeastern University](https://www.north
 
 I have been fortunate to be advised by Professor Xie, Professor Oermann, and Professor Chen. I am also grateful for the mentorship from [Lavender Y. Jiang](https://lavenderjiang.github.io/), [Xujin C. Liu](https://scholar.google.com/citations?user=ZY-JsPoAAAAJ&hl=en), Professor [Kyunghyun Cho](https://kyunghyuncho.me/), and Professor [Samuel R. Bowman](https://sleepinyourhat.github.io/).
 
-Email: [yang.zih@northeastern.edu](mailto:yang.zih@northeastern.edu) or [zy2091@nyu.edu](mailto:zy2091@nyu.edu). CV: [PDF]({{ '/files/Resume_Zihao(Gavin)_Yang.pdf' | relative_url }}).
+Email: [yang.zih@northeastern.edu](mailto:yang.zih@northeastern.edu) or [gavin.yang@nyu.edu](mailto:gavin.yang@nyu.edu). CV: [PDF]({{ '/files/Resume_Zihao(Gavin)_Yang.pdf' | relative_url }}).
 
 ## Publications
 
