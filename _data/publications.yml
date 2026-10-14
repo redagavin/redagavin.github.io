@@ -24,6 +24,11 @@
   note: "* equal contribution; † core contributor"
   links:
     - { label: arXiv, url: "https://arxiv.org/abs/2511.04670" }
+    - { label: Project page, url: "https://cambrian-mllm.github.io/cambrian-s/" }
+    - { label: Code, url: "https://github.com/cambrian-mllm/cambrian-s" }
+    - { label: Models, url: "https://huggingface.co/collections/nyu-visionx/cambrian-s-models" }
+    - { label: Dataset, url: "https://huggingface.co/datasets/nyu-visionx/VSI-590K" }
+    - { label: Benchmark, url: "https://huggingface.co/collections/nyu-visionx/vsi-super" }
 
 - title: "Medical large language models are vulnerable to data-poisoning attacks"
   authors: ["Daniel Alber", "Zihao Yang", "Anton Alyakin", "Eunice Yang", "Sumedha Rai", "Aly Valliani", "Jeff Zhang", "Gabriel Rosenbaum", "Ashley Amend-Thomas", "David Kurland", "Caroline Kremer", "Alexander Eremiev", "Bruck Negash", "Daniel Wiggan", "Michelle Nakatsuka", "Karl Sangwon", "Sean Neifert", "Hammad Khan", "Akshay Save", "Adhith Palla", "Eric Grin", "Monika Hedman", "Mustafa Nasir-Moin", "Xujin Liu", "Lavender Jiang", "Michal Mankowski", "Dorry Segev", "Yindalon Aphinyanaphongs", "Howard Riina", "John Golfinos", "Daniel Orringer", "Douglas Kondziolka", "Eric Oermann"]
@@ -31,6 +36,7 @@
   group: peer-reviewed
   links:
     - { label: Nature Medicine, url: "https://www.nature.com/articles/s41591-024-03445-1" }
+    - { label: Code, url: "https://github.com/nyuolab/llm-knowledge-graphs" }
 
 - title: "Intriguing Effect of the Correlation Prior on ICD-9 Code Assignment"
   authors: ["Zihao Yang", "Chenkang Zhang", "Muru Wu", "Xujin Liu", "Lavender Jiang", "Kyunghyun Cho", "Eric Oermann"]
@@ -40,6 +46,7 @@
   image_alt: "Diagram: a discharge summary mapped to ICD-9 codes, first manually, then by language models"
   links:
     - { label: ACL Anthology, url: "https://aclanthology.org/2023.acl-srw.19/" }
+    - { label: Code, url: "https://github.com/nyuolab/text2table" }
 
 - title: "BPQA Dataset: Evaluating How Well Language Models Leverage Blood Pressures to Answer Biomedical Questions"
   authors: ["Chi Hang", "Ruiqi Deng", "Lavender Jiang", "Zihao Yang", "Anton Alyakin", "Daniel Alber", "Eric Oermann"]
@@ -47,6 +54,7 @@
   group: preprint
   links:
     - { label: arXiv, url: "https://arxiv.org/abs/2503.04155" }
+    - { label: Dataset, url: "https://huggingface.co/datasets/Kekelilii/BPQA100" }
 
 - title: "Language Models Can Guess Your Identities from De-identified Clinical Notes"
   authors: ["Lavender Jiang", "Daniel Alber", "Zihao Yang", "Karl Sangwon", "Xujin Liu", "Kyunghyun Cho", "Eric Oermann"]
