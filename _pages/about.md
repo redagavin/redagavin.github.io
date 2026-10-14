@@ -1,17 +1,19 @@
 ---
 permalink: /
-title: "Hi, there! I'm Zihao(Gavin)."
+title: "Hi, there! I'm Zihao (Gavin)."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a first-year CS PhD student at [Northeastern University](https://www.northeastern.edu/), advised by Professor [Byron Wallace](https://www.byronwallace.com/). I graduated cum laude from [New York University](https://www.nyu.edu/) with a Bachelor's degree in Computer Science and Data Science. Previously, I worked in VisionX Lab as a research intern, advised by Professor [Saining Xie](https://www.sainingxie.com/). During my undergraduate program, I worked in [OLAB](https://www.nyuolab.org/) and Memo Lab, advised by Professor [Eric K. Oermann](https://nyulangone.org/doctors/1235498403/eric-k-oermann) and Professor [Chen Shuo](https://med.nyu.edu/faculty/shuo-chen) respectively. My research interests include AI for Healthcare and Multimodal Learning. My research currently focuses on incorporating mechanistic interpretability techniques into real-world clinical scenarios to enhance model trustworthiness.
+I am a second-year CS PhD student at [Northeastern University](https://www.northeastern.edu/), advised by Professor [Byron Wallace](https://www.byronwallace.com/). I graduated cum laude from [New York University](https://www.nyu.edu/) with a Bachelor's degree in Computer Science and Data Science. Previously, I worked in VisionX Lab as a research intern, advised by Professor [Saining Xie](https://www.sainingxie.com/). During my undergraduate program, I worked in [OLAB](https://www.nyuolab.org/) and Memo Lab, advised by Professor [Eric K. Oermann](https://nyulangone.org/doctors/1235498403/eric-k-oermann) and Professor [Chen Shuo](https://med.nyu.edu/faculty/shuo-chen) respectively.
 
-I have been fortunate to be advised by Professor Xie, Professor Oermann, and Professor Shuo. I am also grateful for the memtorship from [Lavender Y. Jiang](https://lavenderjiang.github.io/), [Xujin C. Liu](https://scholar.google.com/citations?user=ZY-JsPoAAAAJ&hl=en), Professor [Kyunghyun Cho](https://kyunghyuncho.me/), and Professor [Samuel R. Bowman](https://cims.nyu.edu/~sbowman/index.shtml).
+I study whether the explanations that large language models give for their answers, in particular chain-of-thought reasoning, faithfully report what drove those answers, and how to measure and train such faithfulness. I build counterfactual and interpretability-based evaluations with proper baselines, and model organisms with known hidden influences as ground truth, toward trustworthy and auditable AI, especially in high-stakes domains. I am available for internships from May 2027 to August 2027.
 
-Email: [yang.zih@northeastern.edu](mailto:yang.zih@northeastern.edu) ; [zy2091@nyu.edu](mailto:zy2091@nyu.edu). CV: [link](https://redagavin.github.io/files/Resume_Zihao(Gavin)_Yang.pdf).
+I have been fortunate to be advised by Professor Xie, Professor Oermann, and Professor Shuo. I am also grateful for the mentorship from [Lavender Y. Jiang](https://lavenderjiang.github.io/), [Xujin C. Liu](https://scholar.google.com/citations?user=ZY-JsPoAAAAJ&hl=en), Professor [Kyunghyun Cho](https://kyunghyuncho.me/), and Professor [Samuel R. Bowman](https://cims.nyu.edu/~sbowman/index.shtml).
+
+Email: [yang.zih@northeastern.edu](mailto:yang.zih@northeastern.edu). CV: [link](https://redagavin.github.io/files/Resume_Zihao(Gavin)_Yang.pdf).
 
 ## Publication
 <style>
@@ -76,28 +78,28 @@ Email: [yang.zih@northeastern.edu](mailto:yang.zih@northeastern.edu) ; [zy2091@n
 }
 </style>
 
-**Refining Packing and Shuffling Strategies for Enhanced Performance in Generative Language Models**  
+**Compared to What? Baselines and Metrics for Counterfactual Prompting**  
+**Zihao Yang**, Mosh Levy, Yoav Goldberg, Byron C. Wallace  
+*COLM 2026*  
+<button class="button-4" onclick="window.open('https://arxiv.org/abs/2605.01048','_blank')">PDF</button>
+<br>
+
+**Optimizing Packing and Shuffling Strategies for Enhanced Performance in Generative Language Models**  
 Yanbing Chen, Ruilin Wang, **Zihao Yang**, Lavender Jiang, Eric Oermann  
-Preprint  
-<button class="button-4" onclick="window.open('https://arxiv.org/abs/2408.09621','_blank')">PDF</button>
+*ACL 2026 SRW*  
+<button class="button-4" onclick="window.open('https://aclanthology.org/2026.acl-srw.124/','_blank')">PDF</button>
+<br>
+
+**Cambrian-S: Towards Spatial Supersensing in Video**  
+Shusheng Yang\*, Jihan Yang\*, Pinzhi Huang†, Ellis Brown†, **Zihao Yang**, Yue Yu, Shengbang Tong, Zihan Zheng, Yifan Xu, Muhan Wang, Rob Fergus, Yann LeCun, Li Fei-Fei, Saining Xie  
+*ICLR 2026* (\* equal contribution; † core contributor)  
+<button class="button-4" onclick="window.open('https://arxiv.org/abs/2511.04670','_blank')">PDF</button>
 <br>
 
 **Medical large language models are vulnerable to data-poisoning attacks**  
 Daniel Alber, **Zihao Yang**, Anton Alyakin, Eunice Yang, Sumedha Rai, Aly Valliani, Jeff Zhang, Gabriel Rosenbaum, Ashley Amend-Thomas, David Kurland, Caroline Kremer, Alexander Eremiev, Bruck Negash, Daniel Wiggan, Michelle Nakatsuka, Karl Sangwon, Sean Neifert, Hammad Khan, Akshay Save, Adhith Palla, Eric Grin, Monika Hedman, Mustafa Nasir-Moin, Xujin Liu, Lavender Jiang, Michal Mankowski, Dorry Segev, Yindalon Aphinyanaphongs, Howard Riina, John Golfinos, Daniel Orringer, Douglas Kondziolka, Eric Oermann  
-*Nature Medicine*  
+*Nature Medicine 2025*  
 <button class="button-4" onclick="window.open('https://www.nature.com/articles/s41591-024-03445-1','_blank')">PDF</button>
-<br>
-
-**BPQA Dataset: Evaluating How Well Language Models Leverage Blood Pressures to Answer Biomedical Questions**  
-Chi Hang, Ruiqi Deng, Lavender Jiang, **Zihao Yang**, Daniel Alber, Anton Alyakin, Eric Oermann  
-Preprint  
-<button class="button-4" onclick="window.open('https://arxiv.org/abs/2503.04155','_blank')">PDF</button>
-<br>
-
-**Language Models Can Guess Your Identities from De-identified Clinical Notes**  
-Lavender Jiang, Daniel Alber, **Zihao Yang**, Karl Sangwon, Xujin Liu, Kyunghyun Cho, Eric Oermann  
-Preprint  
-<button class="button-4" onclick="window.open('https://openreview.net/pdf?id=pzpHajYa67','_blank')">PDF</button>
 <br>
 
 ![](images/icd9.png){: .align-right width="200px"}
@@ -107,9 +109,21 @@ Preprint
 <button class="button-4" onclick="window.open('https://aclanthology.org/2023.acl-srw.19/','_blank')">PDF</button>
 <br>
 
+**BPQA Dataset: Evaluating How Well Language Models Leverage Blood Pressures to Answer Biomedical Questions**  
+Chi Hang, Ruiqi Deng, Lavender Jiang, **Zihao Yang**, Anton Alyakin, Daniel Alber, Eric Oermann  
+Preprint, 2025  
+<button class="button-4" onclick="window.open('https://arxiv.org/abs/2503.04155','_blank')">PDF</button>
+<br>
+
+**Language Models Can Guess Your Identities from De-identified Clinical Notes**  
+Lavender Jiang, Daniel Alber, **Zihao Yang**, Karl Sangwon, Xujin Liu, Kyunghyun Cho, Eric Oermann  
+Under review  
+<button class="button-4" onclick="window.open('https://openreview.net/pdf?id=pzpHajYa67','_blank')">PDF</button>
+<br>
+
 ## Education
 + (2025-present) Ph.D., Computer Science, Northeastern University, Boston, MA, USA
-+ (2020-2024) B.A., Computer Science & Data Science, New York University, New York, NY, USA
++ (2020-2024) B.A., Computer Science & Data Science, Minor in Mathematics, New York University, New York, NY, USA
 
 <br>
 <br>
