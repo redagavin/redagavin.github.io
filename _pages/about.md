@@ -35,5 +35,15 @@ Email: [yang.zih@northeastern.edu](mailto:yang.zih@northeastern.edu) or [gavin.y
 {: .education}
 
 <div class="visitor-map">
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=300&t=tt&d=oHhavBKlfOUZpVPCxNCL5CEdv0HrdPTOFOY2vHta3kk'></script>
+<script>
+  (function () {
+    var day = 'https://mapmyvisitors.com/map.js?cl=ffffff&w=300&t=tt&d=oHhavBKlfOUZpVPCxNCL5CEdv0HrdPTOFOY2vHta3kk';
+    var night = 'https://mapmyvisitors.com/map.js?cl=0e1633&w=a&t=tt&d=oHhavBKlfOUZpVPCxNCL5CEdv0HrdPTOFOY2vHta3kk&co=0b4975&cmo=3acc3a&cmn=ff5353&ct=cdd4d9';
+    var map = document.createElement('script');
+    map.type = 'text/javascript';
+    map.id = 'mapmyvisitors';
+    map.src = document.documentElement.getAttribute('data-theme') === 'dark' ? night : day;
+    document.currentScript.after(map);
+  })();
+</script>
 </div>
