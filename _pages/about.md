@@ -35,5 +35,40 @@ Email: [yang.zih@northeastern.edu](mailto:yang.zih@northeastern.edu) or [gavin.y
 {: .education}
 
 <div class="visitor-map">
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=300&t=tt&d=oHhavBKlfOUZpVPCxNCL5CEdv0HrdPTOFOY2vHta3kk'></script>
+<script>
+  (function () {
+    var pages = {
+      light: '{{ '/visitor-map/day.html' | relative_url }}',
+      dark: '{{ '/visitor-map/night.html' | relative_url }}'
+    };
+    var root = document.documentElement;
+    var box = document.currentScript.parentNode;
+    var frames = {};
+    function fit(frame, tries) {
+      var widget = frame.contentDocument && frame.contentDocument.getElementById('mapmyvisitors-widget');
+      if (widget && widget.offsetHeight) {
+        frame.style.height = widget.offsetHeight + 'px';
+      } else if (tries > 0) {
+        setTimeout(function () { fit(frame, tries - 1); }, 200);
+      }
+    }
+    function load(theme) {
+      var frame = document.createElement('iframe');
+      frame.className = 'visitor-map__frame';
+      frame.title = 'Visitor map';
+      frame.setAttribute('scrolling', 'no');
+      frame.onload = function () { fit(frame, 50); };
+      frame.src = pages[theme];
+      box.appendChild(frame);
+      frames[theme] = frame;
+    }
+    function show() {
+      var theme = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      if (!frames[theme]) { load(theme); }
+      for (var name in frames) { frames[name].classList.toggle('is-hidden', name !== theme); }
+    }
+    show();
+    new MutationObserver(show).observe(root, { attributes: true, attributeFilter: ['data-theme'] });
+  })();
+</script>
 </div>

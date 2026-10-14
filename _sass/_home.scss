@@ -96,7 +96,7 @@
   background-color: $mist;
 
   &--preprint {
-    color: #3f4955;
+    color: var(--pill-preprint);
     background-color: $fog;
   }
 }
@@ -133,11 +133,29 @@
 }
 
 .page__content .visitor-map {
+  // both maps are auto-width (w=a): they size to this box once, at load
+  position: relative;
+  width: 100%;
+  max-width: 300px;
   margin-top: 2.5em;
+}
 
-  // the widget centres itself; align it with the page text instead
-  #mapmyvisitors-widget {
-    margin-left: 0;
+// one iframe per theme's widget: map.js styles by page-wide ids and classes,
+// so two widgets in one document would repaint each other
+.visitor-map__frame {
+  display: block;
+  width: 100%;
+  height: 163px;            // replaced by the widget's measured height
+  border: 0;
+  border-radius: 6px;
+  color-scheme: light;      // same as the widget document, so no opaque backdrop
+
+  // the inactive map keeps its size, so it never re-measures from zero
+  &.is-hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
   }
 }
 
@@ -162,8 +180,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  // main.min.js still sets an inline footer-height margin for the theme's old sticky footer
-  margin-bottom: 0 !important;
 }
 
 #main {

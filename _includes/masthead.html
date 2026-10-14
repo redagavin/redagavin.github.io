@@ -4,7 +4,7 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button aria-label="Toggle menu"><div class="navicon"></div></button>
+        <button class="hidden" aria-label="Toggle menu"><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
           {% for link in site.data.navigation.main %}
@@ -19,5 +19,31 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button type="button" class="theme-toggle" aria-label="Dark theme" aria-pressed="false">
+      <i class="fas fa-moon" aria-hidden="true"></i>
+      <i class="fas fa-sun" aria-hidden="true"></i>
+    </button>
+    <script>
+      (function () {
+        var root = document.documentElement;
+        var button = document.querySelector(".theme-toggle");
+        var system = matchMedia("(prefers-color-scheme: dark)");
+        function apply(theme) {
+          root.setAttribute("data-theme", theme);
+          button.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+        }
+        button.addEventListener("click", function () {
+          var theme = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+          try { localStorage.setItem("theme", theme); } catch (e) {}
+          apply(theme);
+        });
+        system.addEventListener("change", function (event) {
+          var saved;
+          try { saved = localStorage.getItem("theme"); } catch (e) {}
+          if (!saved) { apply(event.matches ? "dark" : "light"); }
+        });
+        apply(root.getAttribute("data-theme") || "light");
+      })();
+    </script>
   </div>
 </div>

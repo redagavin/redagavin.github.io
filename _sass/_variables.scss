@@ -56,14 +56,14 @@ $sidebar-link-max-width     : 250px;
    Colors
    ========================================================================== */
 
-/* site palette (all text pairs >= 6:1 on white) */
-$ink                        : #1c2733;
-$graphite                   : #4e5a67;
-$viridian                   : #0a6a5c;
-$viridian-deep              : #07554a;
-$mist                       : #e6f0ed;  // peer-reviewed venue tint
-$fog                        : #eef0f2;  // preprint tint
-$rule                       : #dde2e6;
+/* site palette: CSS custom properties, light and dark values in _theme.scss */
+$ink                        : var(--ink);
+$graphite                   : var(--graphite);
+$viridian                   : var(--viridian);
+$viridian-deep              : var(--viridian-deep);
+$mist                       : var(--mist);  // peer-reviewed venue tint
+$fog                        : var(--fog);   // preprint tint
+$rule                       : var(--rule);
 
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
@@ -71,14 +71,14 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #fff;
-$background-color           : #fff;
+$body-color                 : var(--bg);
+$background-color           : var(--bg);
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $ink;
 $border-color               : $rule;
 
-$primary-color              : $graphite;
+$primary-color              : #4e5a67;  // static: Sass mixes it for buttons and nav
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
