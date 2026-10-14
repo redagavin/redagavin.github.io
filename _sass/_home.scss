@@ -133,6 +133,9 @@
 }
 
 .page__content .visitor-map {
+  // both maps are auto-width (w=a): they size to this box once, at load
+  width: 100%;
+  max-width: 300px;
   margin-top: 2.5em;
 
   // the widget centres itself; align it with the page text instead
