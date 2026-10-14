@@ -33,3 +33,7 @@ Email: [yang.zih@northeastern.edu](mailto:yang.zih@northeastern.edu) or [gavin.y
 + 2025–present: Ph.D., Computer Science, Northeastern University, Boston, MA, USA
 + 2020–2024: B.A., Computer Science & Data Science, Minor in Mathematics, New York University, New York, NY, USA
 {: .education}
+
+<div class="visitor-map">
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=300&t=tt&d=oHhavBKlfOUZpVPCxNCL5CEdv0HrdPTOFOY2vHta3kk'></script>
+</div>

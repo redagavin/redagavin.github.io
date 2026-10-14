@@ -161,6 +161,15 @@
   }
 }
 
+.page__content .visitor-map {
+  margin-top: 2.5em;
+
+  // the widget centres itself; align it with the page text instead
+  #mapmyvisitors-widget {
+    margin-left: 0;
+  }
+}
+
 /* sidebar: quiet, one ink colour for every icon */
 .sidebar .author__name {
   font-size: 1.111rem;
