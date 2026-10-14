@@ -1,0 +1,98 @@
+/* ==========================================================================
+   Light and dark themes: palette tokens and the masthead toggle.
+   Every text pair is at least 6:1 in both themes.
+   ========================================================================== */
+
+:root {
+  --bg: #fff;
+  --band: #f6f7f8;            // footer band on narrow screens
+  --ink: #1c2733;
+  --graphite: #4e5a67;
+  --viridian: #0a6a5c;
+  --viridian-deep: #07554a;
+  --mist: #e6f0ed;
+  --fog: #eef0f2;
+  --rule: #dde2e6;
+  --pill-preprint: #3f4955;
+  color-scheme: light;
+}
+
+/* the same ink-slate family at night: links stay viridian, only lighter */
+@mixin dark-tokens {
+  --bg: #121a21;
+  --band: #172029;
+  --ink: #dde4ea;
+  --graphite: #a1adb8;
+  --viridian: #4db6a3;
+  --viridian-deep: #7fd3c2;
+  --mist: #17302b;
+  --fog: #212b34;
+  --rule: #2b3641;
+  --pill-preprint: #c4cdd5;
+  color-scheme: dark;
+}
+
+/* before JS sets data-theme (or without JS), follow the system setting */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include dark-tokens;
+  }
+}
+
+:root[data-theme="dark"] {
+  @include dark-tokens;
+}
+
+/* toggle: right end of the masthead; the menu stops short of it */
+.masthead__inner-wrap {
+  position: relative;
+}
+
+.masthead__menu {
+  padding-right: 3rem;
+
+  // without the theme's 250px floor, the overflow-menu button stays clear of the toggle
+  .greedy-nav {
+    min-width: 0;
+  }
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: -1.25rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  color: $ink;
+  background: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    color: $viridian;
+    background: $fog;
+  }
+
+  .fa-sun {
+    display: none;
+  }
+}
+
+[data-theme="dark"] .theme-toggle {
+  .fa-moon {
+    display: none;
+  }
+
+  .fa-sun {
+    display: inline-block;
+  }
+}
+
+/* the toggle needs JS */
+.no-js .theme-toggle {
+  display: none;
+}

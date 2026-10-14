@@ -96,7 +96,7 @@
   background-color: $mist;
 
   &--preprint {
-    color: #3f4955;
+    color: var(--pill-preprint);
     background-color: $fog;
   }
 }
@@ -138,6 +138,8 @@
   // the widget centres itself; align it with the page text instead
   #mapmyvisitors-widget {
     margin-left: 0;
+    border-radius: 6px;
+    overflow: hidden;
   }
 }
 
