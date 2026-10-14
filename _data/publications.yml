@@ -11,7 +11,7 @@
 
 - title: "Optimizing Packing and Shuffling Strategies for Enhanced Performance in Generative Language Models"
   authors: ["Yanbing Chen", "Ruilin Wang", "Zihao Yang", "Lavender Jiang", "Eric Oermann"]
-  venue: ACL 2026 SRW
+  venue: ACL SRW 2026
   group: peer-reviewed
   links:
     - { label: ACL Anthology, url: "https://aclanthology.org/2026.acl-srw.124/" }
@@ -33,7 +33,7 @@
 
 - title: "Intriguing Effect of the Correlation Prior on ICD-9 Code Assignment"
   authors: ["Zihao Yang", "Chenkang Zhang", "Muru Wu", "Xujin Liu", "Lavender Jiang", "Kyunghyun Cho", "Eric Oermann"]
-  venue: ACL 2023 SRW
+  venue: ACL SRW 2023
   group: peer-reviewed
   image: icd9.png
   image_alt: "Diagram: a discharge summary mapped to ICD-9 codes, first manually, then by language models"

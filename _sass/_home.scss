@@ -58,8 +58,26 @@
 }
 
 .page__content .pub {
-  display: flow-root; // contains the floated figure
   margin: 0 0 1.6em;
+}
+
+/* an entry with a figure: text left, figure right; stacked under the links on phones */
+.page__content .pub--figure {
+  @include breakpoint($small) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 9.5rem;
+    column-gap: 1.25rem;
+
+    > * {
+      grid-column: 1;
+    }
+
+    .pub__figure {
+      grid-column: 2;
+      grid-row: 1 / span 4;
+      margin: 0;
+    }
+  }
 }
 
 .pub__title {
@@ -111,16 +129,26 @@
 .pub__figure {
   display: block;
   width: min(100%, 15rem);
-  margin: 0 0 0.75em;
+  margin: 0.75em 0 0;
   padding: 0.35rem;
   border: 1px solid $rule;
   border-radius: 4px;
   background-color: #fff;
+}
 
-  @include breakpoint($small) {
-    float: right;
-    width: 9.5rem;
-    margin: 0 0 0.5em 1.25em;
+/* long author lists: first three and last shown, the rest on request */
+.pub__all-authors {
+  margin: -0.2em 0 0.45em;
+  font-size: 0.833rem;
+
+  summary {
+    width: fit-content;
+    color: $link-color;
+    cursor: pointer;
+  }
+
+  .pub__authors {
+    margin-top: 0.3em;
   }
 }
 

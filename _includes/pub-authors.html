@@ -1,0 +1,1 @@
+{% for a in include.authors %}{% assign bare = a | remove: "*" | remove: "†" %}{% if bare == "Zihao Yang" %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
