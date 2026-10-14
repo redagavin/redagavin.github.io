@@ -177,6 +177,48 @@
   color: $graphite;
 }
 
+/* sticky footer: short pages (404) push the footer to the viewport bottom */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  // main.min.js still sets an inline footer-height margin for the theme's old sticky footer
+  margin-bottom: 0 !important;
+}
+
+#main {
+  flex: 1 0 auto;
+  width: 100%;
+}
+
+.page__footer {
+  flex-shrink: 0;
+}
+
+/* from 1024px the sidebar is fixed and full height: keep the footer in the
+   main column, aligned with the page text, so it never covers the sidebar */
+@media screen and (min-width: $sidebar-screen-min-width) {
+  .page__footer {
+    border-top: 0;
+    background-color: transparent;
+
+    footer {
+      max-width: $large;
+      margin-top: 0;
+
+      @include breakpoint($x-large) {
+        max-width: $x-large;
+      }
+    }
+  }
+
+  .page__footer-copyright {
+    @include span(10 of 12 last);
+    @include prefix(0.5 of 12);
+    @include suffix(2 of 12);
+  }
+}
+
 a:focus-visible,
 button:focus-visible {
   outline: 2px solid $viridian;
