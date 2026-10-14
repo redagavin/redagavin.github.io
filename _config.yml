@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Zihao (Gavin) Yang"
 title_separator          : "-"
 name                     : &name "Zihao (Gavin) Yang"
-description              : &description "Second-year CS PhD student at Northeastern University. Graduated with a Bachelor's degree in CS & DS from NYU."
+description              : &description "I study whether the explanations that large language models give for their answers, in particular chain-of-thought reasoning, faithfully report what drove those answers, and how to measure and train such faithfulness."
 url                      : https://redagavin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "redagavin/redagavin.github.io"
@@ -117,12 +117,12 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "ZihaoGavinYang"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "casual-profile.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
