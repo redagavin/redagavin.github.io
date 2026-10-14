@@ -36,7 +36,6 @@
   group: peer-reviewed
   links:
     - { label: Nature Medicine, url: "https://www.nature.com/articles/s41591-024-03445-1" }
-    - { label: Code, url: "https://github.com/nyuolab/llm-knowledge-graphs" }
 
 - title: "Intriguing Effect of the Correlation Prior on ICD-9 Code Assignment"
   authors: ["Zihao Yang", "Chenkang Zhang", "Muru Wu", "Xujin Liu", "Lavender Jiang", "Kyunghyun Cho", "Eric Oermann"]
