@@ -14,7 +14,8 @@ $indent-var                 : 1.3em;
 
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+/* Atkinson Hyperlegible Next is loaded from Google Fonts in _includes/head/custom.html */
+$sans-serif                 : "Atkinson Hyperlegible Next", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
@@ -55,6 +56,15 @@ $sidebar-link-max-width     : 250px;
    Colors
    ========================================================================== */
 
+/* site palette (all text pairs >= 6:1 on white) */
+$ink                        : #1c2733;
+$graphite                   : #4e5a67;
+$viridian                   : #0a6a5c;
+$viridian-deep              : #07554a;
+$mist                       : #e6f0ed;  // peer-reviewed venue tint
+$fog                        : #eef0f2;  // preprint tint
+$rule                       : #dde2e6;
+
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
@@ -65,10 +75,10 @@ $body-color                 : #fff;
 $background-color           : #fff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$text-color                 : $ink;
+$border-color               : $rule;
 
-$primary-color              : #7a8288;
+$primary-color              : $graphite;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
@@ -102,11 +112,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$link-color                 : $viridian;
+$link-color-hover           : $viridian-deep;
+$link-color-visited         : $viridian;
+$masthead-link-color        : $ink;
+$masthead-link-color-hover  : $viridian;
 
 
 /*

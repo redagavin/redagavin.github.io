@@ -1,0 +1,63 @@
+# Publications shown on the home page, in CV order (rendered by _includes/publications.html).
+# group: "peer-reviewed" or "preprint". "Zihao Yang" is bolded automatically.
+
+- title: "Compared to What? Baselines and Metrics for Counterfactual Prompting"
+  authors: ["Zihao Yang", "Mosh Levy", "Yoav Goldberg", "Byron C. Wallace"]
+  venue: COLM 2026
+  group: peer-reviewed
+  links:
+    - { label: arXiv, url: "https://arxiv.org/abs/2605.01048" }
+    - { label: Code, url: "https://github.com/redagavin/counterfactual-prompting-baselines" }
+    - { label: Package, url: "https://github.com/redagavin/cfprompt" }
+
+- title: "Optimizing Packing and Shuffling Strategies for Enhanced Performance in Generative Language Models"
+  authors: ["Yanbing Chen", "Ruilin Wang", "Zihao Yang", "Lavender Jiang", "Eric Oermann"]
+  venue: ACL SRW 2026
+  group: peer-reviewed
+  links:
+    - { label: ACL Anthology, url: "https://aclanthology.org/2026.acl-srw.124/" }
+
+- title: "Cambrian-S: Towards Spatial Supersensing in Video"
+  authors: ["Shusheng Yang*", "Jihan Yang*", "Pinzhi Huang†", "Ellis Brown†", "Zihao Yang", "Yue Yu", "Shengbang Tong", "Zihan Zheng", "Yifan Xu", "Muhan Wang", "Rob Fergus", "Yann LeCun", "Li Fei-Fei", "Saining Xie"]
+  venue: ICLR 2026
+  group: peer-reviewed
+  note: "* equal contribution; † core contributor"
+  links:
+    - { label: arXiv, url: "https://arxiv.org/abs/2511.04670" }
+    - { label: Project page, url: "https://cambrian-mllm.github.io/cambrian-s/" }
+    - { label: Code, url: "https://github.com/cambrian-mllm/cambrian-s" }
+    - { label: Models, url: "https://huggingface.co/collections/nyu-visionx/cambrian-s-models" }
+    - { label: Dataset, url: "https://huggingface.co/datasets/nyu-visionx/VSI-590K" }
+    - { label: Benchmark, url: "https://huggingface.co/collections/nyu-visionx/vsi-super" }
+
+- title: "Medical large language models are vulnerable to data-poisoning attacks"
+  authors: ["Daniel Alber", "Zihao Yang", "Anton Alyakin", "Eunice Yang", "Sumedha Rai", "Aly Valliani", "Jeff Zhang", "Gabriel Rosenbaum", "Ashley Amend-Thomas", "David Kurland", "Caroline Kremer", "Alexander Eremiev", "Bruck Negash", "Daniel Wiggan", "Michelle Nakatsuka", "Karl Sangwon", "Sean Neifert", "Hammad Khan", "Akshay Save", "Adhith Palla", "Eric Grin", "Monika Hedman", "Mustafa Nasir-Moin", "Xujin Liu", "Lavender Jiang", "Michal Mankowski", "Dorry Segev", "Yindalon Aphinyanaphongs", "Howard Riina", "John Golfinos", "Daniel Orringer", "Douglas Kondziolka", "Eric Oermann"]
+  venue: Nature Medicine 2025
+  group: peer-reviewed
+  links:
+    - { label: Nature Medicine, url: "https://www.nature.com/articles/s41591-024-03445-1" }
+
+- title: "Intriguing Effect of the Correlation Prior on ICD-9 Code Assignment"
+  authors: ["Zihao Yang", "Chenkang Zhang", "Muru Wu", "Xujin Liu", "Lavender Jiang", "Kyunghyun Cho", "Eric Oermann"]
+  venue: ACL SRW 2023
+  group: peer-reviewed
+  image: icd9.png
+  image_alt: "Diagram: a discharge summary mapped to ICD-9 codes, first manually, then by language models"
+  links:
+    - { label: ACL Anthology, url: "https://aclanthology.org/2023.acl-srw.19/" }
+    - { label: Code, url: "https://github.com/nyuolab/text2table" }
+
+- title: "BPQA Dataset: Evaluating How Well Language Models Leverage Blood Pressures to Answer Biomedical Questions"
+  authors: ["Chi Hang", "Ruiqi Deng", "Lavender Jiang", "Zihao Yang", "Anton Alyakin", "Daniel Alber", "Eric Oermann"]
+  venue: arXiv 2025
+  group: preprint
+  links:
+    - { label: arXiv, url: "https://arxiv.org/abs/2503.04155" }
+    - { label: Dataset, url: "https://huggingface.co/datasets/Kekelilii/BPQA100" }
+
+- title: "Language Models Can Guess Your Identities from De-identified Clinical Notes"
+  authors: ["Lavender Jiang", "Daniel Alber", "Zihao Yang", "Karl Sangwon", "Xujin Liu", "Kyunghyun Cho", "Eric Oermann"]
+  venue: Under review
+  group: preprint
+  links:
+    - { label: OpenReview, url: "https://openreview.net/pdf?id=pzpHajYa67" }

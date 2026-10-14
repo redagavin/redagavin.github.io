@@ -1,0 +1,244 @@
+/* ==========================================================================
+   Home page: research lede, publications, education, sidebar and focus
+   (palette and font live in _variables.scss)
+   ========================================================================== */
+
+.page__title {
+  margin-bottom: 0.6em;
+  font-size: 1.75rem;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+
+  @include breakpoint($medium) {
+    font-size: 2rem;
+  }
+}
+
+.page__content {
+  max-width: 40rem;
+  line-height: 1.6;
+
+  a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+
+    &:hover {
+      text-decoration-thickness: 2px;
+    }
+  }
+
+  h2 {
+    margin-top: 2.25em;
+    font-size: 1.167rem;
+  }
+
+  h3 {
+    margin: 1.75em 0 0.9em;
+    font-size: 0.889rem;
+    color: $graphite;
+  }
+}
+
+/* the one loud element: the research question, set large */
+.page__content .lede {
+  margin-bottom: 1em;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  letter-spacing: -0.005em;
+
+  @include breakpoint($medium) {
+    font-size: 1.333rem;
+  }
+}
+
+.pubs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page__content .pub {
+  margin: 0 0 1.6em;
+}
+
+/* an entry with a figure: text left, figure right; stacked under the links on phones */
+.page__content .pub--figure {
+  @include breakpoint($small) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 9.5rem;
+    column-gap: 1.25rem;
+
+    > * {
+      grid-column: 1;
+    }
+
+    .pub__figure {
+      grid-column: 2;
+      grid-row: 1 / span 4;
+      margin: 0;
+    }
+  }
+}
+
+.pub__title {
+  margin: 0 0 0.3em;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.page__content .pub__authors {
+  margin: 0 0 0.45em;
+  font-size: 0.889rem;
+  line-height: 1.5;
+  color: $graphite;
+
+  strong {
+    color: $ink;
+  }
+}
+
+.page__content .pub__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3em 0.9em;
+  margin: 0;
+  font-size: 0.833rem;
+}
+
+/* venue pill: tint says peer-reviewed vs preprint */
+.pub__venue {
+  padding: 0.15em 0.6em;
+  border-radius: 1em;
+  font-weight: 700;
+  color: $viridian-deep;
+  background-color: $mist;
+
+  &--preprint {
+    color: #3f4955;
+    background-color: $fog;
+  }
+}
+
+.page__content .pub__note {
+  margin: 0.4em 0 0;
+  font-size: 0.778rem;
+  color: $graphite;
+}
+
+.pub__figure {
+  display: block;
+  width: min(100%, 15rem);
+  margin: 0.75em 0 0;
+  padding: 0.35rem;
+  border: 1px solid $rule;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* long author lists: first three and last shown, the rest on request */
+.pub__all-authors {
+  margin: -0.2em 0 0.45em;
+  font-size: 0.833rem;
+
+  summary {
+    width: fit-content;
+    color: $link-color;
+    cursor: pointer;
+  }
+
+  .pub__authors {
+    margin-top: 0.3em;
+  }
+}
+
+.page__content .education {
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    margin-bottom: 0.4em;
+  }
+}
+
+.page__content .visitor-map {
+  margin-top: 2.5em;
+
+  // the widget centres itself; align it with the page text instead
+  #mapmyvisitors-widget {
+    margin-left: 0;
+  }
+}
+
+/* sidebar: quiet, one ink colour for every icon */
+.sidebar .author__name {
+  font-size: 1.111rem;
+  font-weight: 700;
+}
+
+.sidebar .author__bio {
+  font-size: 0.833rem;
+  line-height: 1.45;
+  color: $graphite;
+}
+
+.sidebar .author__urls.social-icons i {
+  color: $graphite;
+}
+
+/* sticky footer: short pages (404) push the footer to the viewport bottom */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  // main.min.js still sets an inline footer-height margin for the theme's old sticky footer
+  margin-bottom: 0 !important;
+}
+
+#main {
+  flex: 1 0 auto;
+  width: 100%;
+}
+
+.page__footer {
+  flex-shrink: 0;
+}
+
+/* from 1024px the sidebar is fixed and full height: keep the footer in the
+   main column, aligned with the page text, so it never covers the sidebar */
+@media screen and (min-width: $sidebar-screen-min-width) {
+  .page__footer {
+    border-top: 0;
+    background-color: transparent;
+
+    footer {
+      max-width: $large;
+      margin-top: 0;
+
+      @include breakpoint($x-large) {
+        max-width: $x-large;
+      }
+    }
+  }
+
+  .page__footer-copyright {
+    @include span(10 of 12 last);
+    @include prefix(0.5 of 12);
+    @include suffix(2 of 12);
+  }
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid $viridian;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
