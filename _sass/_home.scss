@@ -162,8 +162,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  // main.min.js still sets an inline footer-height margin for the theme's old sticky footer
-  margin-bottom: 0 !important;
 }
 
 #main {
