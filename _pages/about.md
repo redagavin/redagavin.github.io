@@ -7,10 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I study whether the explanations that large language models give for their answers, in particular chain-of-thought reasoning, faithfully report what drove those answers, and how to measure and train such faithfulness.
+I study whether large language models' stated reasoning (chain of thought) faithfully reports what drives their answers, and how to measure that faithfulness and train for it.
 {: .lede}
 
-I build counterfactual and interpretability-based evaluations with proper baselines, and model organisms with known hidden influences as ground truth, toward trustworthy and auditable AI, especially in high-stakes domains. I am available for internships from May 2027 to August 2027.
+I build counterfactual and interpretability-based evaluations with matched baselines, and train model organisms with hidden influences as ground truth. My research is motivated by the need for trustworthy, auditable AI, especially in high-stakes domains. I am available for internships from May 2027 to August 2027.
 
 I am a second-year CS PhD student at [Northeastern University](https://www.northeastern.edu/), advised by Professor [Byron Wallace](https://www.byronwallace.com/). I graduated cum laude from [New York University](https://www.nyu.edu/) with a Bachelor's degree in Computer Science and Data Science. Previously, I worked in VisionX Lab as a research intern, advised by Professor [Saining Xie](https://www.sainingxie.com/). During my undergraduate program, I worked in [OLAB](https://www.nyuolab.org/) and Memo Lab, advised by Professor [Eric K. Oermann](https://nyulangone.org/doctors/1235498403/eric-k-oermann) and Professor [Shuo Chen](https://shuolab.github.io/) respectively.
 
